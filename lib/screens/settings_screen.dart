@@ -70,7 +70,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Language Settings
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(16),
@@ -115,7 +114,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
             ),
             const SizedBox(height: 24),
-            // Token Management
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(16),
@@ -206,7 +204,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
             ),
             const SizedBox(height: 24),
-            // Info Card
             Card(
               color: Colors.blue[50],
               child: Padding(

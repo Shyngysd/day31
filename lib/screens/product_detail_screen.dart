@@ -23,7 +23,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
     _locale = 'en';
   }
 
-  // Mock product data based on ID
   Map<String, dynamic> _getProductData() {
     const products = {
       '1': {
@@ -87,7 +86,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Product Image
             CachedNetworkImage(
               imageUrl: product['imageUrl'],
               width: double.infinity,
@@ -110,7 +108,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                 ),
               ),
             ),
-            // Product Details
             Padding(
               padding: const EdgeInsets.all(16),
               child: Column(

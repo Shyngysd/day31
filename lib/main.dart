@@ -3,10 +3,8 @@ import 'package:intl/date_symbol_data_local.dart';
 import 'router/router.dart';
 
 void main() async {
-  // Initialize internationalization
   await initializeDateFormatting('ru_RU');
   await initializeDateFormatting('en_US');
-  
   runApp(const MyApp());
 }
 

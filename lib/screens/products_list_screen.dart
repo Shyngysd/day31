@@ -20,7 +20,6 @@ class _ProductsListScreenState extends State<ProductsListScreen> {
     _locale = 'en';
   }
 
-  // Пример данных products
   final List<Product> products = [
     Product(
       id: 1,
@@ -122,7 +121,6 @@ class ProductCard extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Cached Network Image
             ClipRRect(
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(8),
@@ -151,7 +149,6 @@ class ProductCard extends StatelessWidget {
                 ),
               ),
             ),
-            // Product Info
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(12),
